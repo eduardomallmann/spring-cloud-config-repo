@@ -7,3 +7,11 @@ eureka:
       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
   instance:
     preferIpAddress: true
+
+
+feign:
+  compression:
+    request:
+      enabled: true
+    response:
+      enabled: true
